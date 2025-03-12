@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0 auto;
     padding: 0 auto;
+}
+
+body {
+    font-family: "Roboto";
 }
 
 .grid-container {
@@ -48,6 +54,16 @@
 }
 
 .grid-item img {
-    height: 100%;
-    width: 100%;
+    height: 300px;
+    width: 300px;
 }
+
+div .header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(76, 1, 130, 0.5);
+    padding: 15px;
+    color: rgb(53, 5, 109)
+}
+
+
