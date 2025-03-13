@@ -9,7 +9,6 @@
 
 body {
     font-family: "Roboto";
-    /* background-color: aliceblue; */
 }
 
 .grid-container {
@@ -67,13 +66,13 @@ div .header{
 }
 
 
-.grid-item {
+.grid-item-card {
     display: flex;
     flex-direction: column;
     border-radius: 10px solid black;
 }
 
-.grid-item h3 {
+.grid-item-card h3 {
     font-weight: 300;
 }
 
@@ -97,35 +96,26 @@ div .header{
     transform: scale(0,95);
 }
 
-.grid-item img {
+.grid-item-card img {
     height: 300px;
     width: 300px;
 }
 
 /* Sidebar */
 
-.sidebar {
-    /* background-color: rgb(75, 0, 130, 0.5) ; */
-    width: 100%;
-
-}
-
-
 .sidebar-item {
     display: flex;
     align-items: center;
-    /* gap: 10px; */
+    gap: 30px;
 
 }
 
-.sidebar-batch {
-    display: flex;
-}
 
 .title-sidebar {
     text-align: center;
 }
     
+/* Footer */
 
 footer {
     background-color: rgb(76, 1, 130);
