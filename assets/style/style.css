@@ -7,6 +7,7 @@
 
 body {
     font-family: "Roboto";
+    background-color: aliceblue;
 }
 
 .grid-container {
@@ -44,10 +45,11 @@ body {
     margin: 10px;
 }
 
-.container {
+.container-main {
     display: grid;
     grid-template-columns: auto auto auto;
 }
+
 
 .grid-item {
     border: 1px solid black;
@@ -61,9 +63,15 @@ body {
 div .header{
     display: flex;
     justify-content: center;
-    background-color: rgb(76, 1, 130, 0.5);
+    align-items: center;
+    background-color: rgb(76, 1, 130);
     padding: 15px;
-    color: rgb(53, 5, 109)
+    color: rgb(255, 255, 255)
+}
+
+.sidebar-item {
+    gap: 10px;
+
 }
 
 
