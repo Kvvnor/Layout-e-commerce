@@ -70,8 +70,16 @@ div .header{
 }
 
 .sidebar-item {
-    gap: 10px;
+    
 
+}
+
+footer {
+    background-color: rgb(76, 1, 130);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
 }
 
 
