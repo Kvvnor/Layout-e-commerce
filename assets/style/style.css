@@ -49,13 +49,14 @@ body {
 
 /* Header */
 
-div .header{
+.header{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(76, 1, 130);
-    padding: 15px;
-    color: rgb(255, 255, 255)
+    padding: 1rem;
+    color: rgb(255, 255, 255);
+    margin: 0;
 }
 
 /* Main */
@@ -63,13 +64,19 @@ div .header{
 .container-main {
     display: grid;
     grid-template-columns: auto auto auto;
+    gap: 1rem;
 }
+
 
 
 .grid-item-card {
     display: flex;
     flex-direction: column;
-    border-radius: 10px solid black;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0px 1px 7px rgb(76, 76, 76);
+    gap: 0.3rem;
 }
 
 .grid-item-card h3 {
@@ -103,13 +110,12 @@ div .header{
 
 /* Sidebar */
 
-.sidebar-item {
+.sidebar-item p {
     display: flex;
     align-items: center;
     gap: 30px;
-
+    
 }
-
 
 .title-sidebar {
     text-align: center;
