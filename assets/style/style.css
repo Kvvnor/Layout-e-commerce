@@ -42,11 +42,6 @@ body {
 
 }
 
-.box {
-    border: 1px solid black;
-    margin: 10px;
-}
-
 /* Header */
 
 .header{
@@ -102,7 +97,7 @@ body {
 }
 
 .buy-button:active {
-    transform: scale(0,95);
+    transform: scale(0,96);
 }
 
 .grid-item-card img {
@@ -133,8 +128,7 @@ footer {
     background-color: rgb(76, 1, 130);
     color: white;
     text-align: center;
-    padding: 20px;
-    width: 100%;
+    padding: 2rem;
 }
 
 
