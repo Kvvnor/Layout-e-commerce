@@ -115,13 +115,19 @@ body {
 .sidebar .sidebar-item {
     display: flex;
     margin: 27px;
+
 }
 
-.sidebar-item p {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    
+/* Alineo descripción */
+.sidebar .sidebar-item .sidebar-name {
+    font-weight: 300;
+    margin: 0.1rem;
+}
+
+/* Alineo cantidades */
+.sidebar .sidebar-item .sidebar-batch {
+    font-weight: 700;
+    margin-right: 1rem;
 }
 
 
