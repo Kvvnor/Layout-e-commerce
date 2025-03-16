@@ -108,7 +108,13 @@ body {
 /* Sidebar */
 
 .sidebar {
-    margin: 2rem
+    margin: 2rem;
+    
+}
+
+.sidebar .sidebar-item {
+    display: flex;
+    margin: 27px;
 }
 
 .sidebar-item p {
@@ -117,6 +123,7 @@ body {
     gap: 30px;
     
 }
+
 
 .title-sidebar {
     text-align: center;
